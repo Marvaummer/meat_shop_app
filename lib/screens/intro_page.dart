@@ -14,7 +14,7 @@ class IntroPage extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(left: 40, right: 40,bottom: 40,top: 80),
-                child: Image.asset("assets/images/logo.png",),
+                child: Image.network("assets/images/logo.png",),
               ),
               Text("We deliver fresh meats at your doorstep",
                 textAlign: TextAlign.center,
